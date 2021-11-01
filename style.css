@@ -1,0 +1,113 @@
+/*Colors and fonts*/
+/*use Color Zillza OR */
+/*use GOOGLE FONT FOR FONTS */
+/* custom design with class*/
+/*for 1% of your design, use id, the rest, class*/
+
+body {
+  background-color: rgb(230, 230, 230);
+  color: rgb(30, 30, 30);
+  font-family: HELEVTICA;
+  font-size: 17px;;
+}
+
+h1,h2{
+  font-family: courier;
+}
+
+h1{
+  color: #5F9EA0;
+  font-weight: 600;
+  letter-spacing: 2;
+  font-size: 32;
+}
+
+h2{
+  color:  rgb(20, 20, 20);
+  font-weight: 600;
+  letter-spacing: 2;
+  font-size: 24;
+}
+
+a{
+  text-decoration: none;
+  color: purple;
+}
+
+a:hover{
+  color: #645AFF;
+}
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media(max-width: 720px){
+  .container{
+    width: 500px;
+  }
+}
+
+@media(max-width: 540px){
+  .container{
+    width: 300px;
+  }
+}
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, .1);
+  border-radius: 4px;
+  margin: 20px;
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.btn-green{
+  background-color: #5F9EA0;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-green:hover{
+  background-color: black;
+  color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 10 px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: #5F9EA0;
+}
+
+.list-inline i:hover {
+  color: rgb(20,20,20);
+}
+
+#introduction p{
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
